@@ -7,7 +7,7 @@ class HelloWorld extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Hello World'),
+        title:  Text('Hello World'),
         backgroundColor: Colors.deepPurple,
       ),
       body: Container(
@@ -18,7 +18,7 @@ class HelloWorld extends StatelessWidget {
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
             colors: [
-              Colors.deepPurple,
+              Colors.deepPurple.shade200,
               Colors.redAccent,
             ],
           ),
